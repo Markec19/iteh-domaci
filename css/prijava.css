@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    margin: 1ex;
+    text-align: center;
+}
+
+#frm{
+    border: solid gray 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+    padding: 50px;
+}
+
+#btn{
+    padding: 5px;
+    margin-left: 68%;
+    font-size: medium;
+    
+}
+
+#sub{
+    text-align: center;
+    display: flex;
+}
