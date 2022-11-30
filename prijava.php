@@ -15,7 +15,7 @@
     <div id="frm">
         <h1>Prijava</h1>
         <br><br>
-        <form method="POST" action="termini.php">
+        <form method="POST" action="clanarina.php">
             <div>
                 <label>Korisnicko ime</label><br>
                 <input type="text" name="korisnicko-ime" class="form-control" id="korisnicko-ime">
