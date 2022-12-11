@@ -16,6 +16,16 @@ require "../dbBroker.php";
             $query = "INSERT INTO nalog(username, password) VALUES ('$this->username', '$this->password')";
             return $conn->query($query);
         }
+
+        public function deleteUser($conn){
+            $query = "DELETE FROM nalog WHERE username='$this->username'";
+            return $conn->query($query);
+        }
+
+
+
+
+
     }
 
 
