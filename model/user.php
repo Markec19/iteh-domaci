@@ -23,6 +23,11 @@ require "../dbBroker.php";
         }
 
 
+        public function updateUser($new_password, $conn){
+            $query = "UPDATE nalog SET password='$new_password' WHERE username='$this->username'";
+            return $conn->query($query);
+        }
+
 
 
 

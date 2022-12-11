@@ -11,26 +11,30 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/prijava.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/add.js"></script>
+    <script type="text/javascript" src="js/update.js"></script>
 
-    <title>Registracija</title>
+    <title>Izmena</title>
 </head>
 <body>
 <div id="frm">
-        <h1>Napravite nalog</h1>
+        <h1>Izmenite šifru</h1>
         <br><br>
         <div id="login">
-            <form method="POST" id = "registracija">
+            <form method="POST" id = "izmena">
                 <div>
                     <label>Korisnicko ime</label><br>
-                    <input type="text" name="korisnicko-imeR" class="form-control" id="korisnicko-imeR">
+                    <input type="text" name="korisnicko-imeI" class="form-control" id="korisnicko-imeI">
                 </div>
                 <br>
                 <div class="form">
                     <label>Šifra</label><br>
-                    <input type="password" name="sifraR" class="form-control" id="sifraR">
+                    <input type="password" name="sifraI" class="form-control" id="sifraI">
                     <div id="passwordHelpBlock" class="form-text">
                     </div>
+                </div>
+                <div class="form">
+                    <label>Nova Šifra</label><br>
+                    <input type="password" name="nova_sifra" class="form-control" id="nova_sifra">
                 </div>
                 <br>
                 <div id="sub">

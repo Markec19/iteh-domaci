@@ -1,6 +1,4 @@
-console.log("ovde");
 $(document).ready(function(){
-    console.log("ovde");
     $("#brisanje").submit(function() {
         
         event.preventDefault();
