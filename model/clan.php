@@ -13,6 +13,19 @@
             $this->teretana = $teretana;
             $this->nalog_id = $nalog_id;
         }
+
+
+        public static function getAllClanarine($username, $conn){
+            $query = "SELECT * FROM clanarina c INNER JOIN nalog n ON c.nalog_id=n.id WHERE n.username='$username'";
+            return $conn->query($query);
+        }
+
+
+
+
+
+
+
     }
 
 
